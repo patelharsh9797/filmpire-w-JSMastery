@@ -26,6 +26,7 @@ function App() {
           <Route exact path="/movie/:id" element={<MovieInformation />} />
           <Route exact path="/actors/:id" element={<Actors />} />
           <Route exact path="/profile/:id" element={<Profile />} />
+          <Route exact path="*" element={<h2>Page Not Found.</h2>} />
         </Routes>
       </main>
     </div>
